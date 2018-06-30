@@ -20,7 +20,7 @@
 						<p class="daftar-text">Daftar</p>
 					</div>
 					<div class="pull-right">
-						<p><a href="">Login</a></p>
+						<p><a href="login.html">Login</a></p>
 					</div>
 					<div class="clearfix"></div><br>
 					<form action="">
@@ -55,7 +55,7 @@
 			  		<li><a href="">Notifikasi</a></li>
 			  		<li><a href="">Bantuan</a></li>
 			  		<li id="register"><a href="#">Daftar</a></li>
-			  		<li><a href="">Login</a></li>
+			  		<li><a href="login.html">Login</a></li>
 			  	</ul>
 			  </div>
 			  
@@ -350,6 +350,7 @@
 			      </div>
 			    </div>
 			</div>
+			<a href="ailin-product.html" class="pull-right" style="color: #ff99cb; padding:10px;">Lihat Semua ></a><br>
 			<br>
 			<div class="garispanjang"></div>
 
@@ -993,6 +994,12 @@
   	$("#register").click(function(){
   		$("#modal-popup").show();
   	});
+
+  	$(".btn-batal-daftar").click(function(){
+  		$("#modal-popup").hide();
+  		return false;
+  	})
+
 
   </script>
 </html>

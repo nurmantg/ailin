@@ -1143,3 +1143,25 @@ footer .copyright{
 	font-weight: bold;
 	letter-spacing: 2px;
 }
+.input-pass-login{
+	width: 70%;
+	height: 50px;
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 10px;
+	padding-left: 20px;
+	outline: none;
+	margin-top: -20px;
+
+}
+.btn-save-login{
+	width: 35%;
+	height: 50px;
+	background: #ff99cb;
+	color: #fff;
+	border:none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
